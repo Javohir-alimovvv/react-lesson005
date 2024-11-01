@@ -1,0 +1,71 @@
+.featur {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 123px;
+
+    .featur__top__text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: #DC780B;
+        margin-bottom: 7px;
+    }
+
+    .featur__top__text__two {
+        // font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: left;
+        color: #150C01;
+        margin-bottom: 44px;
+    }
+
+    .featur__group {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 90px;
+
+        .feature__card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .feature__card__img {
+                width: 88px;
+                height: 88px;
+                margin-bottom: 30px;
+            }
+
+            .feature__card__title {
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: center;
+                color: #150C01;
+                margin-bottom: 15px;
+            }
+
+            .feature__card__desc {
+                max-width: 300px;
+                width: 100%;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+                color: #150C01;
+                opacity: .7;
+            }
+        }
+    }
+}
