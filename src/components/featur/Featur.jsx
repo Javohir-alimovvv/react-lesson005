@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Featur.scss"
-import { texts } from '../static'
+import { texts } from '../../static'
 
 const practs = [
   texts?.map((item) => (

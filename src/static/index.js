@@ -1,6 +1,6 @@
-import home from "../../assets/images/home.png";
-import matak from "../../assets/images/matak.png";
-import smille from "../../assets/images/smill.png";
+import home from "../assets/images/home.png";
+import matak from "../assets/images/matak.png";
+import smille from "../assets/images/smill.png";
 
 export const texts = [
   {

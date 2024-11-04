@@ -5,6 +5,10 @@ import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 import Products from './components/prodacts/Products'
 
+import { ToastContainer, toast } from 'react-toastify';
+
+// import 'aos/dist/aos.css'
+
 function App() {
 
   return (
@@ -14,6 +18,9 @@ function App() {
       <Featur/>
       <About/>
       <Products/>
+
+      <ToastContainer/>
+
     </>
   )
 }
